@@ -1,4 +1,4 @@
-# vs_dataset
+# Virtual Staining Dataset (vs_dataset)
 
 ## Overview
 
