@@ -6,7 +6,7 @@ This DeepTrackAI repository replicates part of the **In Silico Labeling Dataset*
 
 These images were used for developing models that predict virtual staining of biological samples from brightfield images.
 
-Out of the total dataset, this repository only contains the folders named `Rubin/scott_1_0` corresponding to the human motor neurons dataset, labeled as "Condition A" in the original dataset.  
+Out of the total dataset, this repository only contains the folders named `Rubin/scott_1_0` corresponding to human motor neurons, labeled as "Condition A" in the original dataset.  
 This dataset comprises twenty-two pairs of brightfield images and their corresponding fluorescence images. Each pair includes spatially coregistered images (meaning that the brightfield and fluorescence images are matched pixel by pixel so that corresponding features appear in the same locations in both images), showcasing two fluorescent channels: Hoechst stain, which stains nuclei blue, and anti-TuJ1 stain, which stains neurons green. Notably, the brightfield images consist of a z-stack of thirteen images across different focal planes, offering a comprehensive view of the cellular structures.  
 The filenames themselves include enough information to understand the contents of each image.
 
@@ -35,10 +35,9 @@ If you use this dataset in your research, you must follow the licensing requirem
 
 ```bash
 /vs_dataset  
-  ├── train  
-  │   └── scott_1_0/           # Training images  
-  └── test  
-      └── scott_1_0/           # Test images   
+  ├── train/          # Training images
+  │               
+  └── test/           # Test images        
 ```
 
 ## How to Access the Data
