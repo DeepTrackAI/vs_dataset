@@ -58,8 +58,9 @@ cd virtual_staining_dataset
 
 ## Attribution
 
-This replication dataset is based on the original In Silico Labeling Dataset. When using this replication, please cite the original paper:
+This replication dataset is based on the original In Silico Labeling Dataset. When using this replication, please cite the original paper.
 
+### Cite the original paper:
 Christiansen E, Yang S, Ando D, Javaherian A, Skibinski G, Lipnick S, Mount E, O'Neil A, Shah K, Lee A, Goyal P, Fedus W, Poplin R, Esteva A, Berndl M, Rubin L, Nelson P, Finkbeiner S. *In silico labeling: Predicting fluorescent labels in unlabeled images*. Cell, 173(3): 792–803 (2018). [https://doi.org/10.1016/j.cell.2018.03.040](https://doi.org/10.1016/j.cell.2018.03.040)
 
 ```bibtex
