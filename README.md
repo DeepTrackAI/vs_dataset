@@ -41,9 +41,16 @@ If you use this dataset in your research, please follow the licensing requiremen
 
 ```bash
 /vs_dataset  
-  ├── train/          # Training images
-  └── test/           # Test images        
+  ├── train/          # Training set (fields of view split into modality/z-depth files)  
+  │   ├── <filename_1>.png  
+  │   ├── <filename_2>.png  
+  │   └── ...  
+  └── test/           # Test set (same structure as training set)  
+      ├── <filename_1>.png  
+      ├── <filename_2>.png  
+      └── ...
 ```
+Each file corresponds to one modality or z-plane from a field of view. Filenames encode metadata including laboratory, experimental condition, acquisition date, well position, z-depth, imaging channel, mask flag, and image type.
 
 ---
 
