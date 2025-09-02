@@ -17,9 +17,9 @@ Each field of view contains:
 
 ### Summary
 - **Number of fields of view**: 25 (22 for training, 3 for testing)  
-- **Per field of view**: 13 brightfield images + 1 fluorescence image + 1 predicted fluorescence image  
-- **Image format**: PNG, RGB, 8-bit per channel  
+- **Number of images per field of view**: 13 brightfield images + 1 fluorescence image + 1 predicted fluorescence image  
 - **Image size**: various, depending on acquisition
+- **Image format**: 8-bit per channel RGB PNG
 
 The filenames contain metadata sufficient to identify the image contents.
 
