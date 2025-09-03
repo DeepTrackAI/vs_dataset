@@ -31,7 +31,7 @@ The filenames contain metadata sufficient to identify the image contents.
 - **Authors**: Eric M. Christiansen et al. (Google Research)
 - **Source**: [in-silico-labeling GitHub Repository](https://github.com/google/in-silico-labeling/)  
 - **Reference article**: Christiansen et al. *Cell*, 173(3): 792–803 (2018). [DOI: 10.1016/j.cell.2018.03.040](https://doi.org/10.1016/j.cell.2018.03.040)  
-- **License**: [Apache 2.0 License](https://github.com/google/in-silico-labeling/blob/master/LICENSE)
+- **License**: [Apache 2.0](https://github.com/google/in-silico-labeling/blob/master/LICENSE)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
 
