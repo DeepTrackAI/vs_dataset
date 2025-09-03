@@ -58,8 +58,8 @@ Each file corresponds to one modality or z-plane from a field of view. Filenames
 
 ### Clone the Repository
 ```bash
-git clone github.com/DeepTrackAI/vs_dataset
-cd virtual_staining_dataset
+git clone https://github.com/DeepTrackAI/vs_dataset
+cd vs_dataset
 ```
 
 ---
