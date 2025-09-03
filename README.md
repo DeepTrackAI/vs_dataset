@@ -28,7 +28,7 @@ The filenames contain metadata sufficient to identify the image contents.
 ## Original Source
 
 - **Title**: In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images 
-- **Authors**: Eric M. Christiansen et al.  
+- **Authors**: Eric M. Christiansen et al. (Google Research)
 - **Source**: [in-silico-labeling GitHub Repository](https://github.com/google/in-silico-labeling/)  
 - **Reference article**: Christiansen et al. *Cell*, 173(3): 792–803 (2018). [DOI: 10.1016/j.cell.2018.03.040](https://doi.org/10.1016/j.cell.2018.03.040)  
 - **License**: [Apache 2.0 License](https://github.com/google/in-silico-labeling/blob/master/LICENSE)
