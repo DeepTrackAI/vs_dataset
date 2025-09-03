@@ -27,10 +27,10 @@ The filenames contain metadata sufficient to identify the image contents.
 
 ## Original Source
 
-- **Title**: In Silico Labeling Dataset  
-- **Authors**: Christiansen et al.  
+- **Title**: In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images 
+- **Authors**: Eric M. Christiansen et al.  
 - **Source**: [in-silico-labeling GitHub Repository](https://github.com/google/in-silico-labeling/)  
-- **Reference**: Christiansen et al. *Cell*, 173(3): 792–803 (2018). [DOI: 10.1016/j.cell.2018.03.040](https://doi.org/10.1016/j.cell.2018.03.040)  
+- **Reference article**: Christiansen et al. *Cell*, 173(3): 792–803 (2018). [DOI: 10.1016/j.cell.2018.03.040](https://doi.org/10.1016/j.cell.2018.03.040)  
 - **License**: [Apache 2.0 License](https://github.com/google/in-silico-labeling/blob/master/LICENSE)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
@@ -58,7 +58,7 @@ Each file corresponds to one modality or z-plane from a field of view. Filenames
 
 ### Clone the Repository
 ```bash
-git clone -b virtual_staining_dataset github.com/DeepTrackAI/vs_dataset
+git clone github.com/DeepTrackAI/vs_dataset
 cd virtual_staining_dataset
 ```
 
@@ -66,10 +66,22 @@ cd virtual_staining_dataset
 
 ## Attribution
 
-This replication dataset is based on the original In Silico Labeling Dataset. When using this replication, please cite the original paper.
+If you use this dataset, please cite both the In Silico Labeling dataset and the reference article.
 
-### Cite the original paper:
-Christiansen E, Yang S, Ando D, Javaherian A, Skibinski G, Lipnick S, Mount E, O'Neil A, Shah K, Lee A, Goyal P, Fedus W, Poplin R, Esteva A, Berndl M, Rubin L, Nelson P, Finkbeiner S. *In silico labeling: Predicting fluorescent labels in unlabeled images*. Cell, 173(3): 792–803 (2018). [https://doi.org/10.1016/j.cell.2018.03.040](https://doi.org/10.1016/j.cell.2018.03.040)
+### Cite the dataset:
+Google Research. *In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images*. GitHub (2018). Retrieved from [github.com/google/in-silico-labeling](https://github.com/google/in-silico-labeling)
+
+```bibtex
+@misc{google2018insilico,
+  title={In silico labeling: predicting fluorescent labels in unlabeled images},
+  author       = {Google Research},
+  year         = {2018},
+  howpublished = {\url{https://github.com/google/in-silico-labeling}}
+}
+```
+
+### Cite the reference article:
+Christiansen E, Yang S, Ando D, Javaherian A, Skibinski G, Lipnick S, Mount E, O'Neil A, Shah K, Lee A, Goyal P, Fedus W, Poplin R, Esteva A, Berndl M, Rubin L, Nelson P, Finkbeiner S. *In silico labeling: predicting fluorescent labels in unlabeled images}*. Cell 173(3): 792–803 (2018). [DOI: 10.1016/j.cell.2018.03.040](https://doi.org/10.1016/j.cell.2018.03.040)
 
 ```bibtex
 @article{christiansen2018isl,
@@ -88,4 +100,4 @@ Christiansen E, Yang S, Ando D, Javaherian A, Skibinski G, Lipnick S, Mount E, O
 
 ## License
 
-This replication dataset is shared under the **Creative Commons Attribution 4.0 International** License, following the original licensing terms.
+This replication dataset is shared under the [Apache 2.0 License](https://github.com/google/in-silico-labeling/blob/master/LICENSE), consistent with the original licensing terms.
